@@ -2,6 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## FRMW_10
 
+[Github Pages Link](https://avsstorage.github.io/react-rating-app/. )
 
 ## Available Scripts
 
