@@ -27,7 +27,7 @@ class Counter extends C
         return (
             <Grid container spacing={3}>
                 <Grid item xs={12}>
-                    <DatePicker onChange={(n =null, date) => this.setState({...this.state, starsCount: Number(moment(date).format('DD'))})} floatingLabelText="Выберитедату!"/>
+                    <DatePicker onChange={(n =null, date) => this.setState({...this.state, starsCount: Number(moment(date).format('DD'))})} floatingLabelText="Выберите дату !"/>
                 </Grid>
                 <Grid item xs={12}>
                     <Button variant="contained" color="secondary" onClick={ () => { this.setState({...this.state,starsCount: this.state.starsCount + 1 , showImage: !this.showImage}); this.showThankImage()}}>Add +1 rating</Button>
